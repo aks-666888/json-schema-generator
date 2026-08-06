@@ -1,0 +1,21 @@
+{
+  "title": "User",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "email", "name"],
+  "properties": {
+    "id": { "type": "integer", "description": "用户唯一标识" },
+    "email": { "type": "string", "format": "email", "description": "登录邮箱" },
+    "name": { "type": "string", "minLength": 1 },
+    "role": { "type": "string", "enum": ["admin", "user"], "default": "user" },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "profile": {
+      "type": "object",
+      "required": ["age"],
+      "properties": {
+        "age": { "type": "integer", "minimum": 0, "maximum": 120 },
+        "city": { "type": "string" }
+      }
+    }
+  }
+}
