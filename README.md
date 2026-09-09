@@ -85,6 +85,10 @@ Internal
 **和在线工具比优势在哪？**
 不用把你的数据结构贴到别人网站上。
 
+## 🚀 相关作品
+
+- **掘金 Vibe 作品（首发挑战 #VibeLaunch）**：https://juejin.cn/vibe-work/7683152167263944767 —— jsg 的实战作品页，含在线体验入口与源码。
+- **annual-report（汇报可视化）**：https://github.com/aks-666888/annual-report —— 同作者的另一款效率工具，把周报/年报变成一页说清的可视化报告。
 
 ## 💛 支持作者
 
